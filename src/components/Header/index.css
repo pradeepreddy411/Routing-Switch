@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.nav-bar {
+  height: 50px;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.wave-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.wave-logo {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+.wave-para {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  color: black;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+
+  color: black;
+}
+.link-item {
+  list-style-type: none;
+}
+.route-link {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
